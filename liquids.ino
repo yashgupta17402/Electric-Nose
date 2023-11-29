@@ -41,5 +41,5 @@ void loop() {
     // Serial.print("GM702B: "); Serial.print(val); Serial.print("  =  ");
     Serial.print(gas.calcVol(val)); Serial.println(" ");
 
-    delay(100);
+    delay(1000);
 }
